@@ -65,6 +65,7 @@ while read -r TAG ITEM; do
   TURNKEY_MENU+=("$TAG" "$ITEM " "OFF")
 done < <(
   cat <<EOF
+matomo Matomo
 ansible Ansible
 bookstack BookStack
 core Core
